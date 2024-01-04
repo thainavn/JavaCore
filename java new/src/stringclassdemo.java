@@ -10,5 +10,6 @@ public class stringclassdemo {
 		String b = "hello";
 		String ab = new String("hello");// with string class
 	}	String b = new String("hello");
+	
 
 }
