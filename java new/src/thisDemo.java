@@ -10,7 +10,7 @@ public class thisDemo {
     public static void main(String[] args) {
         thisDemo td = new thisDemo();
         td.getData();
-        
+
 
     }
 }
