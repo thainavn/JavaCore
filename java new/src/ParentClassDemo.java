@@ -7,8 +7,8 @@ public class ParentClassDemo {
     public void Brakes() {
         System.out.println("Brakes code is implemented");
     }
-    public void AudioSystem() {
-        System.out.println("Audio code is implemented");
+    public void audioSystem() {
+        System.out.println("Audio parent code is implemented");
     }
 
     public static void main(String[] args) {
