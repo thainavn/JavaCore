@@ -3,6 +3,9 @@ package ArraylistSetHashset;
 import java.util.ArrayList;
 
 public class ArrayListExample {
+    public void abc(){
+        System.out.println("hello");
+    }
 
     public static void main(String[] args) {
         ArrayList<String> a = new ArrayList<String>();

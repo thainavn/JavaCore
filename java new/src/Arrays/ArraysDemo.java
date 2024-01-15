@@ -1,8 +1,14 @@
 package Arrays;
 
+import ArraylistSetHashset.ArrayListExample;
+
+import java.util.ArrayList;
+
 public class ArraysDemo {
 
     public static void main(String[] args) {
+        ArrayListExample c = new ArrayListExample();
+        c.abc();
         int[] a = new int[5];
         a[0] = 1;
         a[1] = 2;

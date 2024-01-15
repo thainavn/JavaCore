@@ -15,11 +15,10 @@ public class HashMapExample {
         System.out.println(hm.get(42));
         hm.remove(42);
         System.out.println(hm.get(42));
-        Set sn = hm.entrySet();
-        Iterator it = sn.iterator();
-        while (it.hasNext()){
+        Set<Map.Entry<Integer, String>> sn = hm.entrySet();
+        for (Map.Entry<Integer, String> integerStringEntry : sn) {
 //            System.out.println(it.next());
-            Map.Entry mp = (Map.Entry)it.next();
+            Map.Entry mp = (Map.Entry) integerStringEntry;
             System.out.println(mp.getKey());
             System.out.println(mp.getValue());
         }
