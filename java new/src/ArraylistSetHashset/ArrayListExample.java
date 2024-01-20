@@ -3,7 +3,7 @@ package ArraylistSetHashset;
 import java.util.ArrayList;
 
 public class ArrayListExample {
-    public void abc(){
+    public void abc() {
         System.out.println("hello");
     }
 

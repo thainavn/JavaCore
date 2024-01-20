@@ -9,9 +9,10 @@ public class ConstructorDemo {
     //Parameterized constructor
     public ConstructorDemo(int a, int b) {
         System.out.println("I am in the parameterized constructor with " + a + " and " + b);
-        int c=a+b;
+        int c = a + b;
         System.out.println(c);
     }
+
     public ConstructorDemo(String str) {
         System.out.println(str);
     }

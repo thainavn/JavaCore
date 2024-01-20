@@ -6,9 +6,11 @@ public class ParentClassDemo {
     public void Gear() {
         System.out.println("Gear code is implemented");
     }
+
     public void Brakes() {
         System.out.println("Brakes code is implemented");
     }
+
     public void audioSystem() {
         System.out.println("Audio parent code is implemented");
     }

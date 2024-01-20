@@ -11,8 +11,6 @@ public class StaticVar {
         i = 0;
     }
 
-    ;
-
     StaticVar(String name, String address) {
         this.name = name;
         this.address = address;

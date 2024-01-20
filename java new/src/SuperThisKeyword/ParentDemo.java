@@ -2,10 +2,12 @@ package SuperThisKeyword;
 
 public class ParentDemo {
     String name = "Rahul";
-    public ParentDemo(){
+
+    public ParentDemo() {
         System.out.println("parent class constructor");
     }
-    public void getData(){
+
+    public void getData() {
         System.out.println("I am parent class");
     }
 

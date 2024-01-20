@@ -1,7 +1,7 @@
 package InterfaceAbstractClass;
 
-public class AustralianTraffic implements CentralTraffic, ContinentTraffic{
-    public static void main(String[] args){
+public class AustralianTraffic implements CentralTraffic, ContinentTraffic {
+    public static void main(String[] args) {
         CentralTraffic a = new AustralianTraffic();
         a.redStop();
         a.greenGo();
@@ -11,9 +11,11 @@ public class AustralianTraffic implements CentralTraffic, ContinentTraffic{
         ContinentTraffic ct = new AustralianTraffic();
 
     }
-    public void walkOnSymbol(){
+
+    public void walkOnSymbol() {
         System.out.println("walking");
     }
+
     @Override
     public void greenGo() {
         System.out.println("green go implementation");

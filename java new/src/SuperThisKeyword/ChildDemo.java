@@ -1,7 +1,8 @@
 package SuperThisKeyword;
 
 public class ChildDemo extends ParentDemo {
-        String name = "QAClickAcademy";
+    String name = "QAClickAcademy";
+
     public ChildDemo() {
         System.out.println("child class constructor");
     }

@@ -15,7 +15,7 @@ public class NumberOfNamesStartWithA {
             String actual = names.get(i);
             if (actual.startsWith("A")) {
                 count++;
-            };
+            }
         }
         System.out.println(count);
     }

@@ -17,7 +17,7 @@ public class HashSetExample {
         System.out.println(hs.isEmpty());
         System.out.println(hs.size());
         Iterator<String> i = hs.iterator();
-        while (i.hasNext()){
+        while (i.hasNext()) {
             System.out.println(i.next());
         }
 //        System.out.println(i.next());

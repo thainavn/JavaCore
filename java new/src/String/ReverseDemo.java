@@ -9,7 +9,7 @@ public class ReverseDemo {
             t = t + s.charAt(i);
         }
         System.out.println(t);
-        if(s.equals(t)){
+        if (s.equals(t)) {
 
         }
     }

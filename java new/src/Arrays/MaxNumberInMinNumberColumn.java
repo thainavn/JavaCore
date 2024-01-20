@@ -16,12 +16,10 @@ public class MaxNumberInMinNumberColumn {
         }
         System.out.println(mincolumn);
         int max = abc[0][mincolumn];
-        int k = 0;
-        while (k < 3) {
+        for (int k = 0; k < 3; k++) {
             if (abc[k][mincolumn] > max) {
                 max = abc[k][mincolumn];
             }
-            k++;
         }
         System.out.println(max);
     }
