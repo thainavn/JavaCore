@@ -7,7 +7,7 @@ public class NumberOfNamesStartWithA {
         ArrayList<String> names = new ArrayList<String>();
         names.add("Abhijeet");
         names.add("Don");
-        names.add("Alekhya");
+        names.add("Aleksey");
         names.add("Adam");
         names.add("Ram");
         int count = 0;
